@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  flag : boolean = true;
   title = 'fifth-class-a';
+
+  hide(){
+    this.flag = !this.flag;
+  }
 }
